@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: 'Open Sans', serif;
+  color: #777;
+}
+a  { color: black; }
+a:hover { }
+p  { font-size: 18px; font-weight: 500;}
+h1 { }
+h2 { font-size: 28px; }
+h3 { }
+h4 { font-weight: 900; text-transform: bold; }
+h5 { font-size: 16px; font-weight: 500; color: #777; }
+
+.center {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.no-space {
+  padding: 0px 0px 0px 0px;
+}
+.text-logo {
+  font-size: 24px;
+}
+.ico img {
+    padding-bottom: 5px;
+    height: 50px;
+    width: auto;
+}
+.navbar {
+  background-color: white;
+  height: 80px;
+  border-bottom: 0.5px solid #ddd;
+  margin-bottom: 0px;
+}
+.navbar-nav {
+  float: right;
+  margin: 20px;
+  color: black;
+}
+.navbar-nav a {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar-brand {
+  padding: 20px 0px;
+  font-weight: 800;
+}
+.navbar-static-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 20;
+}
+.navbar-inverse {
+ height: 10px;
+}
+.navbar-inverse<.navbar-nav {
+  margin: 0px;
+}
+.jumbotron {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 600px;
+  background: #ddd;
+  /*background-image: url("/img/23.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto, cover;*/
+  height: 500px;
+  padding: 250px 0;
+}
+.jumbotron h1 {
+  font-size: 36px;
+}
+.thumbnail {
+  padding: 0px;
+}
+.box {
+ border-top: 1px solid #ddd;
+ border-bottom: 1px solid #ddd;
+ border-left: 0.5px solid #ddd;
+ border-right: 0.5px solid #ddd;
+}
+.panel {
+    border-radius: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+.left-border {
+  border-left: 1px solid #ddd;
+}
+#intro {
+  padding: 20px 0px;
+}
+#portfolio {
+  background-color: #ddd;
+  padding: 20px 0px;
+}
+#subs {
+  display: block;
+  width: 100%;
+  color: #777;
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+}
