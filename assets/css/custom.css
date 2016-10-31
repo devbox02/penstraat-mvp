@@ -4,13 +4,13 @@ body {
   color: #777;
 }
 a  { color: black; }
-a:hover { }
+a:hover { text-decoration: none; }
 p  { font-size: 18px; font-weight: 500;}
 h1 { }
 h2 { font-size: 28px; }
 h3 { }
 h4 { font-weight: 900; text-transform: bold; }
-h5 { font-size: 16px; font-weight: 500; color: #777; }
+h5 { font-size: 16px; font-weight: 500; color: #333; }
 
 .center {
   padding-left: 0px;
@@ -20,6 +20,9 @@ h5 { font-size: 16px; font-weight: 500; color: #777; }
 }
 .no-space {
   padding: 0px 0px 0px 0px;
+}
+.align-center {
+  text-align: center;
 }
 .text-logo {
   font-size: 24px;
@@ -66,9 +69,7 @@ h5 { font-size: 16px; font-weight: 500; color: #777; }
   padding-top: 60px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  height: 600px;
-  background: #ddd;
-  /*background-image: url("/img/23.jpg");
+  /*background-image: url("/img/banner/b1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto, cover;*/
@@ -92,6 +93,12 @@ h5 { font-size: 16px; font-weight: 500; color: #777; }
     text-align: center;
     font-size: 16px;
 }
+.panel-footer {
+  background-color: #F3F4F2;
+}
+.panel-default .panel-heading {
+  background-color: #F9F8E3;
+}
 .left-border {
   border-left: 1px solid #ddd;
 }
@@ -99,17 +106,77 @@ h5 { font-size: 16px; font-weight: 500; color: #777; }
   padding: 20px 0px;
 }
 #portfolio {
-  background-color: #ddd;
+  background-color: #EDD27B;
   padding: 20px 0px;
+}
+#events {
+  padding: 20px 0px 10px;
+  background-color: #EDD27B;
+}
+#reservation {
+  padding: 20px 0px
 }
 #subs {
   display: block;
   width: 100%;
-  color: #777;
-  height: 300px;
+  color: #333;
+  background-color: #EDD27B;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  text-align: center;
+  padding: 20px 0px
+}
+input {
+    border: solid 2px rgba(124, 128, 129, 0.5);
+    color: #333;
+    margin-bottom: 10px;
+    padding: 0.5em;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#contact {
+  height: 120px;
+  background-color: #fff;
+  padding: 20px 0px
+}
+#contact ul {
+  list-style: none;
+}
+#contact h5 {
+  list-style: none;
+  padding: 0px 15px;
+}
+#footer {
+    background-color: #fff;
+    padding: 15px 0px 0px;
+}
+#footer li a .fa {
+  color: #333;
+}
+#footer li a h5{
+  font-weight: 800;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.move h5{
+  margin-top: 10px;
+}
+.iconise {
+  background-color: #333;
+  border-radius: 4px;
+}
+#end {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  padding: 15px 25px 10px;
+}
+.copyright {
   text-align: center;
 }
