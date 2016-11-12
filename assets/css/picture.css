@@ -6,6 +6,10 @@
 .B01 {
   background-image: url("/penstraat-mvp/img/b1.0.jpg");
   background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 600px;
 }
 .B021 {
